@@ -1,0 +1,48 @@
+{
+  "name": "passport-youngstargram",
+  "version": "1.0.0",
+  "description": "Passport strategy for Youngstargram OAuth 2.0",
+  "keywords": [
+    "passport",
+    "youngstargram",
+    "oauth",
+    "oauth2",
+    "authentication"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Logqwerty/passport-youngstargram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Logqwerty/passport-youngstargram/issues"
+  },
+  "author": {
+    "name": "Hyeongjin Jeon",
+    "url": "https://github.com/Logqwerty"
+  },
+  "contributors": [
+    {
+      "name": "Jeahyeon Kim",
+      "url": "https://github.com/JaeHyeonKim19"
+    },
+    {
+      "name": "Soyoung Jeong",
+      "url": "https://github.com/soyoungjeong"
+    },
+    {
+      "name": "Jeongho Nam",
+      "url": "https://github.com/njh7799"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "homepage": "https://github.com/Logqwerty/passport-youngstargram#readme",
+  "dependencies": {
+    "passport-oauth2": "^1.5.0"
+  }
+}
