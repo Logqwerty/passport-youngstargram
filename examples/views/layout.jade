@@ -1,0 +1,21 @@
+doctype html
+html 
+  head
+    title Passport Example
+  body
+    unless user
+      p
+        a(href="/") Home
+        &nbsp; 
+        a(href="/auth/youngstar") Login with Youngstargram
+        &nbsp; 
+    else 
+      p
+        a(href="/") Home
+        &nbsp;
+        a(href="/logout") Log Out
+        &nbsp;
+      p username: #{user.displayName}
+      p name: #{user.name}
+      p provider: #{user.provider}
+    block content
